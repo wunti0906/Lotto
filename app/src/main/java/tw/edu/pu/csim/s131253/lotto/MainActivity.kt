@@ -21,7 +21,13 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import tw.edu.pu.csim.s131253.lotto.ui.theme.LottoTheme
+import androidx.compose.runtime.getValue // 引入 getValue
 
+import androidx.compose.runtime.mutableStateOf // 引入 mutableStateOf
+
+import androidx.compose.runtime.remember // 引入 remember
+
+import androidx.compose.runtime.setValue // 引入 setValue
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
