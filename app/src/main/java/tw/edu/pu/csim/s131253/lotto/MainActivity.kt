@@ -46,7 +46,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Play(modifier: Modifier = Modifier) {
-    // Use remember and mutableStateOf for state management
+
     var lucky by remember { mutableStateOf((1..100).random()) }
 
     Column(
