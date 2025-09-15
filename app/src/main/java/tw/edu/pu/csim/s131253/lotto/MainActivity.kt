@@ -60,7 +60,6 @@ fun Play(modifier: Modifier = Modifier) {
     }
 }
 
-// You might want to add a Preview function for easier testing in Android Studio
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
